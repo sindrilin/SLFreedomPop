@@ -15,6 +15,8 @@
 		EF99887F2133972800BFBF09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF99887E2133972800BFBF09 /* main.m */; };
 		EF9988892133972800BFBF09 /* SLFreedomPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9988882133972800BFBF09 /* SLFreedomPopTests.m */; };
 		EF9988942133972800BFBF09 /* SLFreedomPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9988932133972800BFBF09 /* SLFreedomPopUITests.m */; };
+		EF9988A62133974700BFBF09 /* UIView+SLEasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9988A22133974700BFBF09 /* UIView+SLEasyLayout.m */; };
+		EF9988A72133974700BFBF09 /* UIView+SLFreedomPop.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9988A52133974700BFBF09 /* UIView+SLFreedomPop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		EF99888F2133972800BFBF09 /* SLFreedomPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLFreedomPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9988932133972800BFBF09 /* SLFreedomPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLFreedomPopUITests.m; sourceTree = "<group>"; };
 		EF9988952133972800BFBF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9988A22133974700BFBF09 /* UIView+SLEasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLEasyLayout.m"; sourceTree = "<group>"; };
+		EF9988A32133974700BFBF09 /* UIView+SLFreedomPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLFreedomPop.h"; sourceTree = "<group>"; };
+		EF9988A42133974700BFBF09 /* UIView+SLEasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLEasyLayout.h"; sourceTree = "<group>"; };
+		EF9988A52133974700BFBF09 /* UIView+SLFreedomPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLFreedomPop.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		EF99886E2133972700BFBF09 /* SLFreedomPop */ = {
 			isa = PBXGroup;
 			children = (
+				EF9988A12133974700BFBF09 /* pop */,
 				EF99886F2133972700BFBF09 /* AppDelegate.h */,
 				EF9988702133972700BFBF09 /* AppDelegate.m */,
 				EF9988722133972700BFBF09 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				EF9988952133972800BFBF09 /* Info.plist */,
 			);
 			path = SLFreedomPopUITests;
+			sourceTree = "<group>";
+		};
+		EF9988A12133974700BFBF09 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				EF9988A32133974700BFBF09 /* UIView+SLFreedomPop.h */,
+				EF9988A52133974700BFBF09 /* UIView+SLFreedomPop.m */,
+				EF9988A42133974700BFBF09 /* UIView+SLEasyLayout.h */,
+				EF9988A22133974700BFBF09 /* UIView+SLEasyLayout.m */,
+			);
+			path = pop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +282,9 @@
 			files = (
 				EF9988742133972700BFBF09 /* ViewController.m in Sources */,
 				EF99887F2133972800BFBF09 /* main.m in Sources */,
+				EF9988A72133974700BFBF09 /* UIView+SLFreedomPop.m in Sources */,
 				EF9988712133972700BFBF09 /* AppDelegate.m in Sources */,
+				EF9988A62133974700BFBF09 /* UIView+SLEasyLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

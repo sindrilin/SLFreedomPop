@@ -7,22 +7,81 @@
 //
 
 #import "ViewController.h"
+#import "UIView+SLFreedomPop.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+{
+    __weak UIView *_red;
+    SLViewDirection _direction;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *blue = ({
+        UIView *view = [[UIView alloc] initWithFrame: CGRectMake(160, 160, 80, 80)];
+        view.backgroundColor = [UIColor blueColor];
+        view;
+    });
+    
+    UIView *red = ({
+        UIView *view = [[UIView alloc] initWithFrame: CGRectMake(10, 10, 60, 60)];
+        view.backgroundColor = [UIColor redColor];
+        view;
+    });
+    
+    UIButton *pop = ({
+        UIButton *button = [[UIButton alloc] initWithFrame: CGRectMake(160, 400, 120, 40)];
+        button.backgroundColor = [UIColor redColor];
+        [button setTitle: @"pop" forState: UIControlStateNormal];
+        [button addTarget: self action: @selector(popView) forControlEvents: UIControlEventTouchUpInside];
+        button;
+    });
+    
+    UIButton *remove = ({
+        UIButton *button = [[UIButton alloc] initWithFrame: CGRectMake(160, 480, 120, 40)];
+        button.backgroundColor = [UIColor redColor];
+        [button setTitle: @"remove" forState: UIControlStateNormal];
+        [button addTarget: self action: @selector(removeViews) forControlEvents: UIControlEventTouchUpInside];
+        button;
+    });
+    
+    [self.view addSubview: pop];
+    [self.view addSubview: remove];
+    [self.view addSubview: blue];
+    [blue addSubview: red];
+    red.tag = 101;
+    _red = red;
 }
 
+- (void)didClickedGreenView: (UITapGestureRecognizer *)sender {
+    NSLog(@"did click view");
+}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)popView {
+    if (_direction > SLViewDirectionRight) {
+        return;
+    }
+    
+    UIView *green = ({
+        UIView *view = [[UIView alloc] initWithFrame: CGRectMake(10, 10, 40, 40)];
+        [view addGestureRecognizer: [[UITapGestureRecognizer alloc] initWithTarget: self action: @selector(didClickedGreenView:)]];
+        view.backgroundColor = [UIColor greenColor];
+        view;
+    });
+    [_red sl_popView: green withDirection: _direction];
+    _direction++;
+}
+
+- (void)removeViews {
+    [_red.subviews enumerateObjectsWithOptions: NSEnumerationReverse usingBlock: ^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj removeFromSuperview];
+    }];
+    _direction = 0;
 }
 
 
