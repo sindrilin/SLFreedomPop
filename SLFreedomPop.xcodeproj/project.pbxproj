@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF9988712133972700BFBF09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9988702133972700BFBF09 /* AppDelegate.m */; };
+		EF9988742133972700BFBF09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9988732133972700BFBF09 /* ViewController.m */; };
+		EF9988772133972700BFBF09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9988752133972700BFBF09 /* Main.storyboard */; };
+		EF9988792133972800BFBF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9988782133972800BFBF09 /* Assets.xcassets */; };
+		EF99887C2133972800BFBF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF99887A2133972800BFBF09 /* LaunchScreen.storyboard */; };
+		EF99887F2133972800BFBF09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF99887E2133972800BFBF09 /* main.m */; };
+		EF9988892133972800BFBF09 /* SLFreedomPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9988882133972800BFBF09 /* SLFreedomPopTests.m */; };
+		EF9988942133972800BFBF09 /* SLFreedomPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9988932133972800BFBF09 /* SLFreedomPopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF9988852133972800BFBF09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9988642133972700BFBF09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF99886B2133972700BFBF09;
+			remoteInfo = SLFreedomPop;
+		};
+		EF9988902133972800BFBF09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9988642133972700BFBF09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF99886B2133972700BFBF09;
+			remoteInfo = SLFreedomPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF99886C2133972700BFBF09 /* SLFreedomPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLFreedomPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF99886F2133972700BFBF09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9988702133972700BFBF09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9988722133972700BFBF09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF9988732133972700BFBF09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF9988762133972700BFBF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF9988782133972800BFBF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF99887B2133972800BFBF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF99887D2133972800BFBF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF99887E2133972800BFBF09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF9988842133972800BFBF09 /* SLFreedomPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLFreedomPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9988882133972800BFBF09 /* SLFreedomPopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLFreedomPopTests.m; sourceTree = "<group>"; };
+		EF99888A2133972800BFBF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF99888F2133972800BFBF09 /* SLFreedomPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLFreedomPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9988932133972800BFBF09 /* SLFreedomPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLFreedomPopUITests.m; sourceTree = "<group>"; };
+		EF9988952133972800BFBF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9988692133972700BFBF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9988812133972800BFBF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF99888C2133972800BFBF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF9988632133972700BFBF09 = {
+			isa = PBXGroup;
+			children = (
+				EF99886E2133972700BFBF09 /* SLFreedomPop */,
+				EF9988872133972800BFBF09 /* SLFreedomPopTests */,
+				EF9988922133972800BFBF09 /* SLFreedomPopUITests */,
+				EF99886D2133972700BFBF09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF99886D2133972700BFBF09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF99886C2133972700BFBF09 /* SLFreedomPop.app */,
+				EF9988842133972800BFBF09 /* SLFreedomPopTests.xctest */,
+				EF99888F2133972800BFBF09 /* SLFreedomPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF99886E2133972700BFBF09 /* SLFreedomPop */ = {
+			isa = PBXGroup;
+			children = (
+				EF99886F2133972700BFBF09 /* AppDelegate.h */,
+				EF9988702133972700BFBF09 /* AppDelegate.m */,
+				EF9988722133972700BFBF09 /* ViewController.h */,
+				EF9988732133972700BFBF09 /* ViewController.m */,
+				EF9988752133972700BFBF09 /* Main.storyboard */,
+				EF9988782133972800BFBF09 /* Assets.xcassets */,
+				EF99887A2133972800BFBF09 /* LaunchScreen.storyboard */,
+				EF99887D2133972800BFBF09 /* Info.plist */,
+				EF99887E2133972800BFBF09 /* main.m */,
+			);
+			path = SLFreedomPop;
+			sourceTree = "<group>";
+		};
+		EF9988872133972800BFBF09 /* SLFreedomPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9988882133972800BFBF09 /* SLFreedomPopTests.m */,
+				EF99888A2133972800BFBF09 /* Info.plist */,
+			);
+			path = SLFreedomPopTests;
+			sourceTree = "<group>";
+		};
+		EF9988922133972800BFBF09 /* SLFreedomPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9988932133972800BFBF09 /* SLFreedomPopUITests.m */,
+				EF9988952133972800BFBF09 /* Info.plist */,
+			);
+			path = SLFreedomPopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF99886B2133972700BFBF09 /* SLFreedomPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9988982133972800BFBF09 /* Build configuration list for PBXNativeTarget "SLFreedomPop" */;
+			buildPhases = (
+				EF9988682133972700BFBF09 /* Sources */,
+				EF9988692133972700BFBF09 /* Frameworks */,
+				EF99886A2133972700BFBF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLFreedomPop;
+			productName = SLFreedomPop;
+			productReference = EF99886C2133972700BFBF09 /* SLFreedomPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF9988832133972800BFBF09 /* SLFreedomPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF99889B2133972800BFBF09 /* Build configuration list for PBXNativeTarget "SLFreedomPopTests" */;
+			buildPhases = (
+				EF9988802133972800BFBF09 /* Sources */,
+				EF9988812133972800BFBF09 /* Frameworks */,
+				EF9988822133972800BFBF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9988862133972800BFBF09 /* PBXTargetDependency */,
+			);
+			name = SLFreedomPopTests;
+			productName = SLFreedomPopTests;
+			productReference = EF9988842133972800BFBF09 /* SLFreedomPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF99888E2133972800BFBF09 /* SLFreedomPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF99889E2133972800BFBF09 /* Build configuration list for PBXNativeTarget "SLFreedomPopUITests" */;
+			buildPhases = (
+				EF99888B2133972800BFBF09 /* Sources */,
+				EF99888C2133972800BFBF09 /* Frameworks */,
+				EF99888D2133972800BFBF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9988912133972800BFBF09 /* PBXTargetDependency */,
+			);
+			name = SLFreedomPopUITests;
+			productName = SLFreedomPopUITests;
+			productReference = EF99888F2133972800BFBF09 /* SLFreedomPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9988642133972700BFBF09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = tencent;
+				TargetAttributes = {
+					EF99886B2133972700BFBF09 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					EF9988832133972800BFBF09 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = EF99886B2133972700BFBF09;
+					};
+					EF99888E2133972800BFBF09 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = EF99886B2133972700BFBF09;
+					};
+				};
+			};
+			buildConfigurationList = EF9988672133972700BFBF09 /* Build configuration list for PBXProject "SLFreedomPop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9988632133972700BFBF09;
+			productRefGroup = EF99886D2133972700BFBF09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF99886B2133972700BFBF09 /* SLFreedomPop */,
+				EF9988832133972800BFBF09 /* SLFreedomPopTests */,
+				EF99888E2133972800BFBF09 /* SLFreedomPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF99886A2133972700BFBF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF99887C2133972800BFBF09 /* LaunchScreen.storyboard in Resources */,
+				EF9988792133972800BFBF09 /* Assets.xcassets in Resources */,
+				EF9988772133972700BFBF09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9988822133972800BFBF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF99888D2133972800BFBF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9988682133972700BFBF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9988742133972700BFBF09 /* ViewController.m in Sources */,
+				EF99887F2133972800BFBF09 /* main.m in Sources */,
+				EF9988712133972700BFBF09 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9988802133972800BFBF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9988892133972800BFBF09 /* SLFreedomPopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF99888B2133972800BFBF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9988942133972800BFBF09 /* SLFreedomPopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF9988862133972800BFBF09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF99886B2133972700BFBF09 /* SLFreedomPop */;
+			targetProxy = EF9988852133972800BFBF09 /* PBXContainerItemProxy */;
+		};
+		EF9988912133972800BFBF09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF99886B2133972700BFBF09 /* SLFreedomPop */;
+			targetProxy = EF9988902133972800BFBF09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF9988752133972700BFBF09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9988762133972700BFBF09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF99887A2133972800BFBF09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF99887B2133972800BFBF09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9988962133972800BFBF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF9988972133972800BFBF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9988992133972800BFBF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSGBMMMZ4T;
+				INFOPLIST_FILE = SLFreedomPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.SLFreedomPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF99889A2133972800BFBF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSGBMMMZ4T;
+				INFOPLIST_FILE = SLFreedomPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.SLFreedomPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF99889C2133972800BFBF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSGBMMMZ4T;
+				INFOPLIST_FILE = SLFreedomPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.SLFreedomPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLFreedomPop.app/SLFreedomPop";
+			};
+			name = Debug;
+		};
+		EF99889D2133972800BFBF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSGBMMMZ4T;
+				INFOPLIST_FILE = SLFreedomPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.SLFreedomPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLFreedomPop.app/SLFreedomPop";
+			};
+			name = Release;
+		};
+		EF99889F2133972800BFBF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSGBMMMZ4T;
+				INFOPLIST_FILE = SLFreedomPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.SLFreedomPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLFreedomPop;
+			};
+			name = Debug;
+		};
+		EF9988A02133972800BFBF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSGBMMMZ4T;
+				INFOPLIST_FILE = SLFreedomPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.SLFreedomPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLFreedomPop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9988672133972700BFBF09 /* Build configuration list for PBXProject "SLFreedomPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9988962133972800BFBF09 /* Debug */,
+				EF9988972133972800BFBF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9988982133972800BFBF09 /* Build configuration list for PBXNativeTarget "SLFreedomPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9988992133972800BFBF09 /* Debug */,
+				EF99889A2133972800BFBF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF99889B2133972800BFBF09 /* Build configuration list for PBXNativeTarget "SLFreedomPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF99889C2133972800BFBF09 /* Debug */,
+				EF99889D2133972800BFBF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF99889E2133972800BFBF09 /* Build configuration list for PBXNativeTarget "SLFreedomPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF99889F2133972800BFBF09 /* Debug */,
+				EF9988A02133972800BFBF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9988642133972700BFBF09 /* Project object */;
+}
