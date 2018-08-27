@@ -63,16 +63,11 @@ typedef CGRect(^SLFreedomPopHandle)(UIView *contentView);
         return NO;
     }
     
-    for (NSSet *rects in extraRects) {
-        __block BOOL didFount = NO;
-        [rects enumerateObjectsUsingBlock: ^(NSString *rectStr, BOOL * _Nonnull stop) {
+    for (NSArray *rects in extraRects) {
+        for (NSString *rectStr in rects) {
             if (CGRectContainsPoint(CGRectFromString(rectStr), point)) {
-                didFount = YES;
-                *stop = YES;
+                return YES;
             }
-        }];
-        if (didFount) {
-            return YES;
         }
     }
     return NO;
@@ -122,9 +117,9 @@ typedef CGRect(^SLFreedomPopHandle)(UIView *contentView);
 
 - (void)_sl_expandExtraRects: (CGRect)rect forKey: (id<NSCopying>)key {
     NSMutableDictionary *extraRects = [NSMutableDictionary dictionaryWithDictionary: [self extraHitRects] ?: @{}];
-    NSMutableSet *rects = [extraRects objectForKey: key];
+    NSMutableArray *rects = [extraRects objectForKey: key];
     if (!rects) {
-        rects = [NSMutableSet set];
+        rects = [NSMutableArray array];
         [extraRects setObject: rects forKey: key];
         [self setExtraHitRects: [NSDictionary dictionaryWithDictionary: extraRects]];
     }
@@ -166,11 +161,11 @@ typedef CGRect(^SLFreedomPopHandle)(UIView *contentView);
 
 
 #pragma mark - Dynamic
-- (NSDictionary<NSValue *, NSSet *> *)extraHitRects {
+- (NSDictionary<NSValue *, NSArray *> *)extraHitRects {
     return objc_getAssociatedObject(self, SLExtraHitRectsKey);
 }
 
-- (void)setExtraHitRects: (NSDictionary<NSValue *, NSSet *> *)extraHitRects {
+- (void)setExtraHitRects: (NSDictionary<NSValue *, NSArray *> *)extraHitRects {
     objc_setAssociatedObject(self, SLExtraHitRectsKey, extraHitRects, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
